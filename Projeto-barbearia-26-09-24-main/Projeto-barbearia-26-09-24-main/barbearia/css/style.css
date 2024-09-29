@@ -16,9 +16,7 @@
   }
   
   .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    width: 40%;
   }
   /*area de navegacao*/
   nav {
@@ -27,8 +25,10 @@
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: black;
-    height: 8vh;
+    height: 35vh;
+    font-size: 20px;
     z-index: 1000;
+    padding-right: 15px;
   }
   /*configurando ainda o main(nao terminei)!!!!!!*/
   main {
@@ -209,5 +209,23 @@
   
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  /*Página de contato*/
+
+  .icon {
+    width: 5%;
+  }
+
+  .btn_ig {
+    display: flex;
+    background-image: linear-gradient(to right, #405DE6, #FCAF45, #C13584 );
+    border-radius: 2rem;
+    width: 30%;
+    
+  }
+
+  .btn_wp {
+    display: flex;
   }
 
